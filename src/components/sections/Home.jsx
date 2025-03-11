@@ -30,7 +30,7 @@ export const Home = () => {
             <div className="flex flex-row justify-center md:justify-start space-x-2 md:space-x-4">
               <div className="inline-block bg-gradient-to-br from-purple-600 to-blue-500 p-0.5 md:p-1 rounded-full transition-transform duration-300 hover:scale-105 hover:shadow-xl">
                 <a
-                  href="#contact"
+                  href="#projects"
                   className="block bg-black text-white py-2 md:py-3 px-3 md:px-6 rounded-full font-medium text-sm md:text-base"
                 >
                   View projects
@@ -48,8 +48,9 @@ export const Home = () => {
 
               <div className="inline-block bg-gradient-to-br from-purple-600 to-blue-500 p-0.5 md:p-1 rounded-full transition-transform duration-300 hover:scale-105 hover:shadow-xl">
                 <a
-                  href=""
+                  href="../public/File/HarshithReddy_Resume.pdf"
                   className="block bg-black text-white py-2 md:py-3 px-3 md:px-6 rounded-full font-medium text-sm md:text-base"
+                  target="_blank"
                 >
                   Resume
                 </a>
