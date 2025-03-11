@@ -14,15 +14,12 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
             <div className="rounded-full w-[22px] h-[22px] bg-purple-600"></div>
             <div className="rounded-full w-[22px] h-[22px] bg-blue-500"></div>
           </div>
-          <div className="w-7 h-5 relative cursor-pointer z-40 md:hidden text-blue-50">
-            ☰
-          </div>
-          {/* <div
-            className="w-7 h-5  relative cursor-pointer z-40 md:hidden "
+          <div
+            className="w-7 h-5 relative cursor-pointer z-40 md:hidden text-blue-50"
             onClick={() => setMenuOpen((prev) => !prev)}
           >
             ☰
-          </div> */}
+          </div>
 
           <div className="hidden md:flex items-center space-x-8">
             <a
